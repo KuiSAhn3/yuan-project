@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的信息</title>
+    <link type="text/css" rel="stylesheet" href="myInfo.css"/>
+    <script type="text/javascript" src="myInfo.js"></script>
+</head>
+<body>
+<div class="outside">
+    <!-- 外边框 -->
+    <div class="alert-info" id="alertInfo"></div>
+    <div class="inner">
+        <!-- 内边框 -->
+        <div class="inner-heading">
+            <!-- 头部 -->
+            <p>个人信息</p>
+        </div>
+        <div class="info-display-area">
+            <!-- 整个用户信息的显示区域 -->
+            <div class="head-appear-area">
+                <!-- 头像显示区域 -->
+                <div class="head-appear">
+                    <img id="userHeadAppear" src="">
+                </div>
+                <div class="head-appear-p">
+                    <form action="#" id="headAppearUpload">
+                        <input type="file" class="head-appear-button" id="headAppearButton" name="avatar"/>
+                        <span class="head-appear-span">更换头像</span>
+                    </form>
+                </div>
+            </div>
+            <div class="phone-number-display-area">
+                <!-- 注册电话号码显示区域 -->
+                <div class="phone-number-display">
+                    <p>注册手机号</p>
+                </div>
+                <div class="phone-number" id="phoneNumber">
+                    17854118857
+                </div>
+            </div>
+            <div class="nick-name-area">
+                <!-- 昵称显示区域 -->
+                <div class="nick-name-heading">
+                    昵称
+                </div>
+                <div class="nick-name">
+                    <div id="nickNameBorder" class="nick-name-input">
+                        <input id="nickNameInput" class="nick-name-input-area" type="text" value="test"/>
+                    </div>
+                </div>
+            </div>
+            <div class="sex-display-area">
+                <!-- 性别显示区域 -->
+                <div class="sex-display-heading">
+                    性别
+                </div>
+                <div class="sex-chose-area">
+                    <div class="male">
+                        男
+                        <span class="selected" id="male"></span>
+                    </div>
+                    <div class="female">
+                        女
+                        <span class="no-select" id="female"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="submit-area">
+                <!-- 提交按钮区域 -->
+                <div class="submit-button" id="submitButton">
+                    提交
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

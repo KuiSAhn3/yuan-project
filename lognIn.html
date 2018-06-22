@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link href="log-in.css" type="text/css" rel="stylesheet"/>
+    <script src="logIn.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="outside">
+        <!--外边框-->
+        <div class="inner" id="inner">
+            <!--显示用的边框-->
+            <div class="area">
+                <!--最终的显示区域-->
+                <div class="tip" id="tip">
+
+                </div>
+                <div class="log-heading">
+                    <!--标题-->
+                    欢迎回到猿计划
+                </div>
+                <div class="input-area">
+                    <!--输入区域-->
+                    <div class="mobile" id="mobileDiv">
+                        <input type="text" name="mobile" id="mobile" placeholder="请输入登录手机号"/>
+                    </div>
+                    <div class="pwd" id="pwdDiv">
+                        <input type="password" name="pwd" id="pwd" placeholder="6-16位密码，区分大小写，不能使用空格"/>
+                    </div>
+                    <div class="log-inf">
+                        <div class="auto-log">
+                            <div class="checkbox" id="autoLog">
+                                <img src="checkbox-checked.jpg" id="checkInImg"/>
+                            </div>
+                            <p>下次自动登录</p>
+                        </div>
+                        <div class="fgt-pwd">
+                            <a class="fgt-a-1" href="#">忘记密码？</a>
+                            <a class="fgt-a-2" href="logUp.html" target="_self">立即注册</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="log-button-area">
+                    <!--放置登录按钮的区域-->
+                    <div class="log-button">
+                        <!--登录按钮本体-->
+                        <a id="logButton">登录</a>
+                    </div>
+                </div>
+                <div class="weChat-area">
+                    <!--合作网站登录区域-->
+                    使用合作网站账户登录
+                    <br>
+                    <a href="#"><img src="weixin-logo.png"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

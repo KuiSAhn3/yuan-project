@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="changePwd.css" type="text/css">
+    <script type="text/javascript" src="changePwd.js"></script>
+    <title>修改密码</title>
+</head>
+<body>
+    <div class="outside">
+        <div class="tips" id="tips"></div>
+        <div class="inner">
+            <div class="heading-area">
+                <p>修改密码</p>
+            </div>
+            <div class="main-area">
+                <div class="phone-number-display-area">
+                    <div class="phone-number-heading">
+                        手机号:
+                    </div>
+                    <div class="phone-number" id="usrPhoneNum">00000000000</div>
+                </div>
+                <div class="new-pwd-display-area">
+                    <div class="new-pwd-heading">
+                        新密码:
+                    </div>
+                    <div class="new-pwd-input-area">
+                        <div class="newpwd-input-border" id="newPwdInputBorder">
+                            <input type="password" class="new-pwd-input" id="newPwdInput" placeholder="请输入新密码"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="cf-pwd-display-area">
+                    <div class="cf-pwd-heading">
+                        确认密码:
+                    </div>
+                    <div class="cf-pwd-input-area">
+                        <div class="cfpwd-input-border" id="cfPwdInputBorder">
+                            <input type="password" class="cf-pwd-input" id="cfPwdInput" placeholder="请再次输入密码"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="sms-display-area">
+                    <div class="sms-heading">
+                        请输入验证码:
+                    </div>
+                    <div class="sms-input-area">
+                        <div class="sms-input-border" id="smsInputBorder">
+                            <input type="text" class="sms-input" id="smsInput" placeholder="请输入验证码"/>
+                        </div>
+                    </div>
+                    <div class="sms-button-area">
+                    	<div class="sms-button" id="smsButton">
+                    		获取验证码
+                    	</div>
+                    </div>
+                </div>
+                <div class="submit-area">
+                    <div class="submit-button" id="submitButton">
+                        提交
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
